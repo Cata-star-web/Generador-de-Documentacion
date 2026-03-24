@@ -21,6 +21,7 @@ Incluye:
 
 ## Estructura del Proyecto
 
+```
 /docs-generator
 │
 ├── structures/ 
@@ -28,6 +29,7 @@ Incluye:
 ├── input/
 ├── output/ 
 └── README.md
+```
 
 ## Documentos Generados
 
@@ -69,3 +71,35 @@ La IA complementa la automatización de la generacion de documentación permitie
 - Generar descripciones funcionales y técnicas
 - Construir diagramas y tablas estructuradas automáticamente
 - Garantizar coherencia semántica entre secciones
+
+## Funcionamiento
+1. Ubicar los artefactos técnicos en la carpeta "/input"
+2. Ejecutar la herramienta de generación
+3. Procesar archivos y extraer información estructurada
+4. Aplicar plantillas Markdown
+5. Generar documentos en la carpeta "/output"
+
+## Criterios de Calidad
+- Generación automática en formato Markdown
+- Consistencia estructural en todos los documentos
+- Diagramas en formato Mermaid
+- Tablas correctamente estructuradas
+- Mapeos en formato HTML dentro de Markdown
+- Ejemplos XML válidos
+- Coherencia entre descripciones, tablas y ejemplos
+- Identificación correcta de datos sensibles
+
+## Beneficios
+- Reducción significativa del esfuerzo manual
+- Estandarización de la documentación de Servicios de Integración
+- Mejora en la calidad y claridad técnica
+- Aceleración del proceso de desarrollo
+- Facilita el entendimiento para equipos técnicos y funcionales
+
+## Tecnologías
+- Markdown
+- XML / JSON
+- WSDL
+- ESQL
+- Mermaid (diagramas)
+- Inteligencia Artificial
