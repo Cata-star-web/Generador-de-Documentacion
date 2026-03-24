@@ -1,7 +1,7 @@
 # Generador de Documentación Técnica Automatizada con IA
 
 ## Descripción
-Se propone una herramienta automatizada con IA para generar documentación técnica de servicios de integración a partir de archivos como WSDL, XML, JSON, ESQL y README. Extrae, interpreta y transforma la información en documentos estandarizados (Home, Especificación y Mecanismos), garantizando calidad, coherencia y reducción del esfuerzo manual.
+Se propone una herramienta automatizada con IA para generar documentación técnica de servicios de integración a partir de archivos como WSDL, XML, JSON, ESQL y README. Extrae, interpreta y transforma la información en documentos estandarizados (Home, Especificación y Mecanismos), garantizando calidad, coherencia y aceleracion en la generacion de documentos técnicos.
 
 ## Objetivo
 Automatizar la generación de documentación técnica en formato Markdown, asegurando calidad, consistencia estructural y alineación con estándares definidos por la organización.
@@ -11,13 +11,13 @@ La herramienta analiza una carpeta raíz y procesa archivos técnicos para gener
 
 Incluye:
 - Extracción de información desde WSDL, XML, JSON, ESQL y README.md
-- Generación de documentación en formato Markdown
 - Uso de plantillas dinámicas reutilizables
 - Construcción automática de descripciones, diagramas, tablas y ejemplos
 - Construcción automática de mensajes de entrada y salida (headers, body, status)
 - Construcción automática de mapeos (mensajes de solicitud, mensajes de respuesta exitosa y error)
 - Generación de contenido técnico en lenguaje natural mediante IA
 - Generación de descripciones funcionales y técnicas
+- Generación de documentación en formato Markdown
 
 ## Estructura del Proyecto
 
@@ -90,11 +90,9 @@ La IA complementa la automatización de la generacion de documentación permitie
 - Identificación correcta de datos sensibles
 
 ## Beneficios
-- Reducción significativa del esfuerzo manual
 - Estandarización de la documentación de Servicios de Integración
-- Mejora en la calidad y claridad técnica
-- Aceleración del proceso de desarrollo
-- Facilita el entendimiento para equipos técnicos y funcionales
+- Mejora en la calidad y claridad técnica en los documentos
+- Aceleración del proceso de desarrollo en documentación técnica
 
 ## Tecnologías
 - Markdown
